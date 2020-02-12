@@ -1,0 +1,1 @@
+function detectColorScheme(){!0===window.matchMedia("(prefers-color-scheme: dark)").matches?console.log("dark"):console.log("light")}console.log(window.matchMedia("(prefers-color-scheme: dark)").matches),detectColorScheme();
