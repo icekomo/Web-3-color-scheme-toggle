@@ -16,8 +16,8 @@
     }
 
     > div {
-        border-bottom: 3px solid $black;
-        border-top: 3px solid $black;
+        border-bottom: 3px solid var(--color-dividelines);
+        border-top: 3px solid var(--color-dividelines);
         grid-area: everything;
         padding: 20px 0;
         text-align: center;

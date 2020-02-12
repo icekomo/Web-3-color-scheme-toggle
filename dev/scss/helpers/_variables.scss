@@ -19,3 +19,17 @@ $screen-xl-min: 1200px;
 $white: #fff;
 $black: #000;
 $rust: #D87337;
+
+
+// These are CSS Variables
+:root {
+  --color-bg: #fff;
+  --color-title: #000;
+  --color-dividelines: #000;
+}
+
+[data-theme="dark"] {
+  --color-bg: #000;
+  --color-title: #fff;
+  --color-dividelines: #fff;
+}

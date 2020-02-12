@@ -9,6 +9,16 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --color-bg: #fff;
+  --color-title: #000;
+  --color-dividelines: #000; }
+
+[data-theme="dark"] {
+  --color-bg: #000;
+  --color-title: #fff;
+  --color-dividelines: #fff; }
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -311,21 +321,21 @@ template {
 /* =============
     Base
 ============= */
-body figure {
-  margin: 0;
-  padding: 0; }
-
-body ul {
-  margin: 0;
-  padding: 0; }
-  body ul li {
-    list-style: none; }
-
-body .section-content {
-  padding: 40px 0; }
-  @media (min-width: 768px) {
-    body .section-content {
-      padding: 50px 0; } }
+body {
+  background-color: var(--color-bg); }
+  body figure {
+    margin: 0;
+    padding: 0; }
+  body ul {
+    margin: 0;
+    padding: 0; }
+    body ul li {
+      list-style: none; }
+  body .section-content {
+    padding: 40px 0; }
+    @media (min-width: 768px) {
+      body .section-content {
+        padding: 50px 0; } }
 
 /* =============
     Typography
@@ -341,7 +351,8 @@ h1, h2, h3, h4, h5, p {
   margin: 0; }
 
 p {
-  line-height: 1.5625rem; }
+  line-height: 1.5625rem;
+  color: var(--color-title); }
   @media (min-width: 992px) {
     p {
       line-height: 1.875rem; } }
@@ -368,6 +379,7 @@ textarea {
     Navigation
 ============= */
 #toggle {
+  text-align: center;
   position: fixed;
   background-color: #fff;
   top: 0;
@@ -482,7 +494,8 @@ footer {
       padding: 20px 0; }
       #believe > div section div article h1 {
         font-size: 1.75rem;
-        margin-bottom: 15px; }
+        margin-bottom: 15px;
+        color: var(--color-title); }
         @media (min-width: 768px) {
           #believe > div section div article h1 {
             font-size: 1.875rem; } }
@@ -528,8 +541,8 @@ footer {
     #everything {
       grid-template-columns: auto 1200px auto; } }
   #everything > div {
-    border-bottom: 3px solid #000;
-    border-top: 3px solid #000;
+    border-bottom: 3px solid var(--color-dividelines);
+    border-top: 3px solid var(--color-dividelines);
     grid-area: everything;
     padding: 20px 0;
     text-align: center; }

@@ -46,6 +46,7 @@
                     h1 {
                         font-size: rem-calc(28);
                         margin-bottom: 15px;
+                        color: var(--color-title);
 
                         @include md{
                             font-size: rem-calc(30);

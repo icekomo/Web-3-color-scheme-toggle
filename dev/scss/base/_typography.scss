@@ -16,6 +16,7 @@ h1,h2,h3,h4,h5,p{
 
 p{
     line-height: rem-calc(25);
+    color: var(--color-title);
 
     @include lg{
         line-height: rem-calc(30);

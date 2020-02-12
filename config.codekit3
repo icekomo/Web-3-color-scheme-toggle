@@ -208,6 +208,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/toggle.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/toggle-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -428,6 +439,14 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"/dev/toggle.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/toggle.html",
+		"oF": 0
 		}
 	},
 "hooks": [
